@@ -1,22 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this material, please cite it as below."
 authors:
-- family-names: "Gagini"
-  given-names: "Pedro A. M."
+- family-names: "Gagini et al."
+  given-names: ""
   orcid: "https://orcid.org/0009-0004-5433-5241"
-- family-names: "Martins"
-  given-names: "Rafael M."
-  orcid: "https://orcid.org/0000-0002-2901-935X"
-- family-names: "Soares"
-  given-names: "Amilcar"
-  orcid: "https://orcid.org/0000-0001-5957-3805"
-- family-names: "Paulovich"
-  given-names: "Fernando"
-  orcid: "https://orcid.org/0000-0002-2316-760X"
-- family-names: "Linhares"
-  given-names: "Claudio D. G."
-  orcid: "https://orcid.org/0000-0001-7012-4461"
-
 title: "Visualization-and-Evaluation-of-MVN-through-DR-and-GE"
 version: 1.0.0
 date-released: 2026-04-15
