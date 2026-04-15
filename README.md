@@ -60,8 +60,8 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 
 ## Repository Contents
 
-- `GDxDR_Cora.ipynb`: Code and supplementary experiments for the Cora dataset.
-- `GDxDR_Amazon.ipynb`: Code and supplementary experiments for the Amazon dataset.
+- [GDxDR_Cora.ipynb](./GDxDR_Cora.ipynb): Code and supplementary experiments for the Cora dataset.
+- [GDxDR_Amazon.ipynb](./GDxDR_Amazon.ipynb): Code and supplementary experiments for the Amazon dataset.
 
 ## Environment Setup
 
@@ -71,8 +71,8 @@ Please use Python **3.10.3** and install dependencies using `pip install -r requ
 
 In a Jupyter Notebook, open and run:
 
-- `GDxDR_Cora.ipynb`
-- `GDxDR_Amazon.ipynb`
+- [GDxDR_Cora.ipynb](./GDxDR_Cora.ipynb)
+- [GDxDR_Amazon.ipynb](./GDxDR_Amazon.ipynb)
 
 ## Acknowledgments
 
