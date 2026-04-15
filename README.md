@@ -31,14 +31,14 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 <table style="font-size:12px; border-collapse:collapse;">
 <thead>
 <tr>
-<th>Wf</th>
+<th>Worflow</th>
 <th>Method</th>
 <th>Dim</th>
 <th>DR</th>
-<th>Struct. Trust</th>
-<th>Attr. Trust</th>
-<th>Harm. Trust</th>
-<th>Silh.</th>
+<th>Structure Trustworthiness</th>
+<th>Attribute Trustworthiness</th>
+<th>Harmonic Trustworthiness</th>
+<th>Silhouette</th>
 </tr>
 </thead>
 <tbody>
@@ -71,10 +71,10 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 <th>Method</th>
 <th>Dim</th>
 <th>DR</th>
-<th>Struct. Trust</th>
-<th>Attr. Trust</th>
-<th>Harm. Trust</th>
-<th>Silh.</th>
+<th>Structure Trustworthiness</th>
+<th>Attribute Trustworthiness</th>
+<th>Harmonic Trustworthiness</th>
+<th>Silhouette</th>
 </tr>
 </thead>
 <tbody>
