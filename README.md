@@ -48,7 +48,7 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 <tr><td>2</td><td>GCN</td><td>64</td><td>UMAP</td><td>0.894±0.003</td><td>0.673±0.002</td><td>0.771±0.002</td><td>-0.148±0.109</td></tr>
 <tr><td>2</td><td>GAT</td><td>128</td><td>t-SNE</td><td>0.894±0.004</td><td>0.679±0.002</td><td>0.771±0.006</td><td><b>0.093±0.058</b></td></tr>
 <tr><td>2</td><td>GAT</td><td>128</td><td>UMAP</td><td>0.883±0.005</td><td>0.676±0.003</td><td>0.765±0.006</td><td>-0.157±0.100</td></tr>
-<tr><td>2</td><td>GraphCL</td><td>64</td><td>t-SNE</td><td>0.878±0.010</td><td>0.670±0.007</td><td>0.760±0.008</td><td>0.074±0.064</td></tr>
+<tr><td>2</td><td>GraphCL</td><td>64</td><td>t-SNE</td><td>0.878±0.010</td><td>0.670±0.007</td><td>0.760±0.008</td><td><b>0.074±0.064<b></td></tr>
 <tr><td>2</td><td>GraphCL</td><td>64</td><td>UMAP</td><td>0.864±0.012</td><td>0.670±0.007</td><td>0.754±0.009</td><td>-0.148±0.123</td></tr>
 <tr><td>2</td><td>GAT</td><td>2</td><td>∅</td><td>0.767±0.049</td><td>0.604±0.020</td><td>0.681±0.031</td><td>0.053±0.150</td></tr>
 <tr><td>2</td><td>GCN</td><td>2</td><td>∅</td><td>0.664±0.040</td><td>0.562±0.015</td><td>0.608±0.025</td><td>-0.420±0.141</td></tr>
