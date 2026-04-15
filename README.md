@@ -28,9 +28,9 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 
 | **Workflow** | **Method** | **Dim** | **DR** | **Structure Trustworthiness** | **Attributes Trustworthiness** | **Harmonic Trustworthiness** | **Silhouette** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Linear C. | ∅ | t-SNE | 0.930±0.002 | 0.672±0.001 | **0.780±0.001** | 0.031±0.029 |
+| 1 | Linear Combination | ∅ | t-SNE | 0.930±0.002 | 0.672±0.001 | **0.780±0.001** | 0.031±0.029 |
 | 2 | GCN | 64 | t-SNE | 0.912±0.002 | 0.675±0.001 | 0.776±0.001 | 0.072±0.074 |
-| 1 | Linear C. | ∅ | UMAP | 0.937±0.001 | 0.658±0.002 | 0.773±0.002 | -0.246±0.015 |
+| 1 | Linear Combination | ∅ | UMAP | 0.937±0.001 | 0.658±0.002 | 0.773±0.002 | -0.246±0.015 |
 | 2 | GCN | 64 | UMAP | 0.894±0.003 | 0.673±0.002 | 0.771±0.002 | -0.148±0.109 |
 | 2 | GAT | 128 | t-SNE | 0.894±0.004 | 0.679±0.002 | 0.771±0.006 | **0.093±0.058** |
 | 2 | GAT | 128 | UMAP | 0.883±0.005 | 0.676±0.003 | 0.765±0.006 | -0.157±0.100 |
@@ -46,8 +46,8 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 
 | **Workflow** | **Method** | **Dim** | **DR** | **Structure Trustworthiness** | **Attributes Trustworthiness** | **Harmonic Trustworthiness** | **Silhouette** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Linear C. | ∅ | t-SNE | 0.912±0.001 | 0.766±0.0004 | **0.833±0.0004** | **-0.123±0.050** |
-| 1 | Linear C. | ∅ | UMAP | 0.872±0.001 | 0.753±0.001 | 0.808±0.0004 | -0.298±0.027 |
+| 1 | Linear Combination | ∅ | t-SNE | 0.912±0.001 | 0.766±0.0004 | **0.833±0.0004** | **-0.123±0.050** |
+| 1 | Linear Combination | ∅ | UMAP | 0.872±0.001 | 0.753±0.001 | 0.808±0.0004 | -0.298±0.027 |
 | 2 | GCN | 256 | t-SNE | 0.921±0.001 | 0.591±0.001 | 0.720±0.001 | -0.220±0.096 |
 | 2 | GCN | 256 | UMAP | 0.912±0.001 | 0.583±0.002 | 0.711±0.001 | **-0.040±0.064** |
 | 2 | GraphCL | 64 | t-SNE | 0.896±0.022 | 0.587±0.010 | 0.709±0.013 | -0.255±0.110 |
