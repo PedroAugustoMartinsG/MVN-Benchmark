@@ -26,37 +26,73 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 
 <p align="center"><em>Table 1: Cora: Comparison of workflows across method, dimensional, DR, and evaluation metrics. Results are averaged over 20 runs and reported as mean ± standard deviation; bold values denote the best result per metric.</em></p>
 
-| **Workflow** | **Method** | **Dim** | **DR** | **Structure Trustworthiness** | **Attributes Trustworthiness** | **Harmonic Trustworthiness** | **Silhouette** |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Linear Combination | ∅ | t-SNE | 0.930±0.002 | 0.672±0.001 | **0.780±0.001** | 0.031±0.029 |
-| 2 | GCN | 64 | t-SNE | 0.912±0.002 | 0.675±0.001 | 0.776±0.001 | 0.072±0.074 |
-| 1 | Linear Combination | ∅ | UMAP | 0.937±0.001 | 0.658±0.002 | 0.773±0.002 | -0.246±0.015 |
-| 2 | GCN | 64 | UMAP | 0.894±0.003 | 0.673±0.002 | 0.771±0.002 | -0.148±0.109 |
-| 2 | GAT | 128 | t-SNE | 0.894±0.004 | 0.679±0.002 | 0.771±0.006 | **0.093±0.058** |
-| 2 | GAT | 128 | UMAP | 0.883±0.005 | 0.676±0.003 | 0.765±0.006 | -0.157±0.100 |
-| 2 | GraphCL | 64 | t-SNE | 0.878±0.010 | 0.670±0.007 | 0.760±0.008 | 0.074±0.064 |
-| 2 | GraphCL | 64 | UMAP | 0.864±0.012 | 0.670±0.007 | 0.754±0.009 | -0.148±0.123 |
-| 2 | GAT | 2 | ∅ | 0.767±0.049 | 0.604±0.020 | 0.681±0.031 | 0.053±0.150 |
-| 2 | GCN | 2 | ∅ | 0.664±0.040 | 0.562±0.015 | 0.608±0.025 | -0.420±0.141 |
-| 2 | GraphCL | 2 | ∅ | 0.560±0.030 | 0.560±0.010 | 0.560±0.019 | -0.291±0.069 |
+<div align="center">
+
+<table style="font-size:12px; border-collapse:collapse;">
+<thead>
+<tr>
+<th>Wf</th>
+<th>Method</th>
+<th>Dim</th>
+<th>DR</th>
+<th>Struct. Trust</th>
+<th>Attr. Trust</th>
+<th>Harm. Trust</th>
+<th>Silh.</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Lin. Comb.</td><td>∅</td><td>t-SNE</td><td>0.930±0.002</td><td>0.672±0.001</td><td><b>0.780±0.001</b></td><td>0.031±0.029</td></tr>
+<tr><td>2</td><td>GCN</td><td>64</td><td>t-SNE</td><td>0.912±0.002</td><td>0.675±0.001</td><td>0.776±0.001</td><td>0.072±0.074</td></tr>
+<tr><td>1</td><td>Lin. Comb.</td><td>∅</td><td>UMAP</td><td>0.937±0.001</td><td>0.658±0.002</td><td>0.773±0.002</td><td>-0.246±0.015</td></tr>
+<tr><td>2</td><td>GCN</td><td>64</td><td>UMAP</td><td>0.894±0.003</td><td>0.673±0.002</td><td>0.771±0.002</td><td>-0.148±0.109</td></tr>
+<tr><td>2</td><td>GAT</td><td>128</td><td>t-SNE</td><td>0.894±0.004</td><td>0.679±0.002</td><td>0.771±0.006</td><td><b>0.093±0.058</b></td></tr>
+<tr><td>2</td><td>GAT</td><td>128</td><td>UMAP</td><td>0.883±0.005</td><td>0.676±0.003</td><td>0.765±0.006</td><td>-0.157±0.100</td></tr>
+<tr><td>2</td><td>GraphCL</td><td>64</td><td>t-SNE</td><td>0.878±0.010</td><td>0.670±0.007</td><td>0.760±0.008</td><td>0.074±0.064</td></tr>
+<tr><td>2</td><td>GraphCL</td><td>64</td><td>UMAP</td><td>0.864±0.012</td><td>0.670±0.007</td><td>0.754±0.009</td><td>-0.148±0.123</td></tr>
+<tr><td>2</td><td>GAT</td><td>2</td><td>∅</td><td>0.767±0.049</td><td>0.604±0.020</td><td>0.681±0.031</td><td>0.053±0.150</td></tr>
+<tr><td>2</td><td>GCN</td><td>2</td><td>∅</td><td>0.664±0.040</td><td>0.562±0.015</td><td>0.608±0.025</td><td>-0.420±0.141</td></tr>
+<tr><td>2</td><td>GraphCL</td><td>2</td><td>∅</td><td>0.560±0.030</td><td>0.560±0.010</td><td>0.560±0.019</td><td>-0.291±0.069</td></tr>
+</tbody>
+</table>
+
+</div>
 
 <br>
 
 <p align="center"><em>Table 2: Amazon: Comparison of workflows across method, dimensional, DR, and evaluation metrics. Results are averaged over 20 runs and reported as mean ± standard deviation; bold values denote the best result per metric.</em></p>
 
-| **Workflow** | **Method** | **Dim** | **DR** | **Structure Trustworthiness** | **Attributes Trustworthiness** | **Harmonic Trustworthiness** | **Silhouette** |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Linear Combination | ∅ | t-SNE | 0.912±0.001 | 0.766±0.0004 | **0.833±0.0004** | **-0.123±0.050** |
-| 1 | Linear Combination | ∅ | UMAP | 0.872±0.001 | 0.753±0.001 | 0.808±0.0004 | -0.298±0.027 |
-| 2 | GCN | 256 | t-SNE | 0.921±0.001 | 0.591±0.001 | 0.720±0.001 | -0.220±0.096 |
-| 2 | GCN | 256 | UMAP | 0.912±0.001 | 0.583±0.002 | 0.711±0.001 | **-0.040±0.064** |
-| 2 | GraphCL | 64 | t-SNE | 0.896±0.022 | 0.587±0.010 | 0.709±0.013 | -0.255±0.110 |
-| 2 | GraphCL | 64 | UMAP | 0.885±0.022 | 0.580±0.009 | 0.701±0.012 | -0.185±0.128 |
-| 2 | GAT | 16 | t-SNE | 0.776±0.027 | 0.592±0.021 | 0.671±0.016 | -0.309±0.076 |
-| 2 | GAT | 16 | UMAP | 0.738±0.031 | 0.584±0.019 | 0.650±0.015 | -0.443±0.089 |
-| 2 | GCN | 2 | ∅ | 0.607±0.057 |0.609±0.002 | 0.618±0.023 | -0.338±0.136 |
-| 2 | GAT | 2 | ∅ | 0.692±0.046 | 0.554±0.017 | 0.598±0.021 | -0.426±0.152 |
-| 2 | GraphCL | 2 | ∅ | 0.571±0.036 | 0.610±0.002 | 0.592±0.022 | -0.433±0.109 |
+<div align="center">
+
+<table style="font-size:12px; border-collapse:collapse;">
+<thead>
+<tr>
+<th>Wf</th>
+<th>Method</th>
+<th>Dim</th>
+<th>DR</th>
+<th>Struct. Trust</th>
+<th>Attr. Trust</th>
+<th>Harm. Trust</th>
+<th>Silh.</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Lin. Comb.</td><td>∅</td><td>t-SNE</td><td>0.912±0.001</td><td>0.766±0.0004</td><td><b>0.833±0.0004</b></td><td><b>-0.123±0.050</b></td></tr>
+<tr><td>1</td><td>Lin. Comb.</td><td>∅</td><td>UMAP</td><td>0.872±0.001</td><td>0.753±0.001</td><td>0.808±0.0004</td><td>-0.298±0.027</td></tr>
+<tr><td>2</td><td>GCN</td><td>256</td><td>t-SNE</td><td>0.921±0.001</td><td>0.591±0.001</td><td>0.720±0.001</td><td>-0.220±0.096</td></tr>
+<tr><td>2</td><td>GCN</td><td>256</td><td>UMAP</td><td>0.912±0.001</td><td>0.583±0.002</td><td>0.711±0.001</td><td><b>-0.040±0.064</b></td></tr>
+<tr><td>2</td><td>GraphCL</td><td>64</td><td>t-SNE</td><td>0.896±0.022</td><td>0.587±0.010</td><td>0.709±0.013</td><td>-0.255±0.110</td></tr>
+<tr><td>2</td><td>GraphCL</td><td>64</td><td>UMAP</td><td>0.885±0.022</td><td>0.580±0.009</td><td>0.701±0.012</td><td>-0.185±0.128</td></tr>
+<tr><td>2</td><td>GAT</td><td>16</td><td>t-SNE</td><td>0.776±0.027</td><td>0.592±0.021</td><td>0.671±0.016</td><td>-0.309±0.076</td></tr>
+<tr><td>2</td><td>GAT</td><td>16</td><td>UMAP</td><td>0.738±0.031</td><td>0.584±0.019</td><td>0.650±0.015</td><td>-0.443±0.089</td></tr>
+<tr><td>2</td><td>GCN</td><td>2</td><td>∅</td><td>0.607±0.057</td><td>0.609±0.002</td><td>0.618±0.023</td><td>-0.338±0.136</td></tr>
+<tr><td>2</td><td>GAT</td><td>2</td><td>∅</td><td>0.692±0.046</td><td>0.554±0.017</td><td>0.598±0.021</td><td>-0.426±0.152</td></tr>
+<tr><td>2</td><td>GraphCL</td><td>2</td><td>∅</td><td>0.571±0.036</td><td>0.610±0.002</td><td>0.592±0.022</td><td>-0.433±0.109</td></tr>
+</tbody>
+</table>
+
+</div>
 
 ## Repository Contents
 
