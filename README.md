@@ -67,7 +67,7 @@ Cora contains scientific publications classified into 7 categories: Case Based, 
 <table style="font-size:12px; border-collapse:collapse;">
 <thead>
 <tr>
-<th>Wf</th>
+<th>Workflow</th>
 <th>Method</th>
 <th>Dim</th>
 <th>DR</th>
