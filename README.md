@@ -10,9 +10,9 @@
 
 
 
-This repository contains the code and supplementary material for the paper **"Visualization and Evaluation of Multivariate Networks through Dimensionality Reduction and Graph Embeddings".**
+This repository contains the code and supplementary material for the paper **"Visualization and Evaluation of Multivariate Networks through Dimensionality Reduction and Graph Embeddings".** 
 
-Published at **GDxDR: Bridging Graph Drawing and Dimensionality Reduction**, workshop at **EuroVis 2026** (Nottingham, England, 8-12 June 2026).
+Published at **GDxDR: Bridging Graph Drawing and Dimensionality Reduction**, workshop at **EuroVis 2026** (Nottingham, England, 8-12 June 2026). See in: https://diglib.eg.org/handle/10.2312/evgdxdr20261000.
 
 ## Paper Abstract
 
@@ -118,13 +118,17 @@ Pedro A. M. Gagini gratefully acknowledges the funding and infrastructure provid
 
 If you use this material, please cite:
 
-> Gagini, P. A. M., Martins, R. M., Soares, A., Paulovich, F., & Linhares, C. D. G. (2026). MVN-Benchmark (Version 1.0.0) [Computer software]. https://github.com/PedroAugustoMartinsG/MVN-Benchmark
+> GAGINI P. A. M., MARTINS R. M., SOARES A., PAULOVICH F. V., LINHARES C. D. G.: Visualization and Evaluation of Multivariate Networks through Dimensionality Reduction and Graph Embeddings. In EuroVis Workshop on GDxDR (2026), The Eurographics Association. doi:10.2312/evgdxdr.20261000.
 
-> @software{Gagini_MVN-Benchmark_2026,
-author = {Gagini, Pedro A. M. and Martins, Rafael M. and Soares, Amilcar and Paulovich, Fernando and Linhares, Claudio D. G.},
-month = apr,
-title = {{MVN-Benchmark}},
-url = {https://github.com/PedroAugustoMartinsG/MVN-Benchmark},
-version = {1.0.0},
-year = {2026}
+```bibtex
+@inproceedings{10.2312:evgdxdr.20261000,
+booktitle = {EuroVis Workshop on GDxDR},
+editor = {Linhares, Claudio D. G. and Kerren, Andreas and Martins, Rafael and Soares, Amilcar and Arleo, Alessio and van den Elzen, Stef and Paulovich, Fernando V.},
+title = {{Visualization and Evaluation of Multivariate Networks through Dimensionality Reduction and Graph Embeddings}},
+author = {Gagini, Pedro A. M. and Martins, Rafael M. and Soares, Amilcar and Paulovich, Fernando V. and Linhares, Claudio D. G.},
+year = {2026},
+publisher = {The Eurographics Association},
+ISSN = {1467-8659},
+ISBN = {978-3-03868-313-1},
+DOI = {10.2312/evgdxdr.20261000}
 }
